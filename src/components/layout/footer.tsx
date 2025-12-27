@@ -14,7 +14,7 @@ export function Footer({ variant = 'fixed' }: FooterProps) {
             ResumeLM © 2025
           </p>
           <span className="text-sm text-muted-foreground text-center">
-            Made with ❤️ in Vancouver, BC
+           
           </span>
         </div>
         <nav className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
@@ -27,7 +27,7 @@ export function Footer({ variant = 'fixed' }: FooterProps) {
           </Link>
           <div className="flex items-center gap-6">
             <Link
-              href="https://x.com/alexanfromvan"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors p-1"
@@ -35,7 +35,7 @@ export function Footer({ variant = 'fixed' }: FooterProps) {
               <Twitter className="h-5 w-5 md:h-4 md:w-4" />
             </Link>
             <Link
-              href="https://linkedin.com/in/olyaiy"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors p-1"
@@ -43,7 +43,7 @@ export function Footer({ variant = 'fixed' }: FooterProps) {
               <Linkedin className="h-5 w-5 md:h-4 md:w-4" />
             </Link>
             <Link
-              href="https://github.com/olyaiy"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors p-1"
